@@ -1,0 +1,70 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .navbar {
+    background-color: #455d7a;
+    /* overflow: hidden; */
+  }
+
+  .navbar a:hover {
+     color: white;
+  }
+
+  .nav_com {
+     padding: 16px;
+     display: inline-block;
+   }
+
+   .button1:hover  {
+    background-color: #cbf078;
+    border:  3px solid grey;
+    border-radius: 5px;
+   }
+
+
+   /* .container {
+      margin: 50%;
+      width: 50%;
+      height: 30%;
+      background-color: #cbf078;
+      
+   } */
+
+   .card {
+  
+      width: 80%;
+      height: 300px;
+      padding: 10%;
+      margin: 2% auto auto auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      /* background-image: url('https://img.freepik.com/premium-photo/beautiful-background-blur-image-with-raindrops-foreground_465502-4221.jpg?w=826'); */
+
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   /* .button1:hover {
+      background-color: #a6e34b;  
+   } */
+
+   .blog_card {
+      width: 80%;
+      height: 1000px;
+      margin: 2% auto auto auto;
+      padding: 10%;
+      border: 2px solid #ccc;
+      /* color */
+      /* width: 80%; */
+   }

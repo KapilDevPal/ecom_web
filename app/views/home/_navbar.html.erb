@@ -1,0 +1,14 @@
+<div class="navbar"> 
+    <div class="nav_com">
+    <a href="/">Home</a>
+    <div class= 'nav_com'>
+        <% if user_signed_in? %>
+            <%= button_to 'Logout with Google', google_oauth2_sign_out_path, method: :delete, data: { turbo: 'false' }, class: 'button1' %> 
+            <% else %>
+            <%= button_to 'Login with Google', user_google_oauth2_omniauth_authorize_path, method: :post, data: { turbo: 'false' }, class: 'button1' %>  
+        <% end %>
+    </div>
+     <a class "nav_com" href="/blogs/index">Blogs</a> 
+     <a class= 'nav_com'>Contact</a>
+     </div>
+</div>
